@@ -2,29 +2,64 @@
   {
     "objectID": "hungarian-thoughts.html",
     "href": "hungarian-thoughts.html",
-    "title": "",
+    "title": "My Hungarian Thoughts",
     "section": "",
-    "text": "# My Hungarian Thoughts\n\n    This is the My Hungarian Thoughts section."
+    "text": "My Hungarian Thoughts\nThis is the My Hungarian Thoughts section."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "Home",
     "section": "",
-    "text": "---\n    title: \"Home\"\n    ---\n\n    # Welcome to My Website\n\n    ## About Me\n    I am a passionate developer with interests in various fields of computer science. \n    [Read more](about.qmd)\n\n    ## Computer Science\n    I have worked on numerous projects involving algorithms, data structures, and software engineering principles.\n    [Read more](computer-science.qmd)\n\n    ## My Hungarian Thoughts\n    I often share my thoughts and experiences related to Hungarian culture and language.\n    [Read more](hungarian-thoughts.qmd)"
+    "text": "I am a passionate developer with interests in various fields of computer science. Read more\n\n\n\nI have worked on numerous projects involving algorithms, data structures, and software engineering principles. Read more\n\n\n\nI often share my thoughts and experiences related to Hungarian culture and language. Read more"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "I am a passionate developer with interests in various fields of computer science. Read more"
+  },
+  {
+    "objectID": "index.html#computer-science",
+    "href": "index.html#computer-science",
+    "title": "Home",
+    "section": "",
+    "text": "I have worked on numerous projects involving algorithms, data structures, and software engineering principles. Read more"
+  },
+  {
+    "objectID": "index.html#my-hungarian-thoughts",
+    "href": "index.html#my-hungarian-thoughts",
+    "title": "Home",
+    "section": "",
+    "text": "I often share my thoughts and experiences related to Hungarian culture and language. Read more"
   },
   {
     "objectID": "computer-science.html",
     "href": "computer-science.html",
-    "title": "",
+    "title": "Computer Science",
     "section": "",
-    "text": "# Computer Science\n\n    This is the Computer Science section."
+    "text": "Computer Science\nThis is the Computer Science section."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "",
+    "title": "Finley Malloc",
     "section": "",
-    "text": "# About Me\n\n    This is the About Me section."
+    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\n\n\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011\n\n\n\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018\n\n \n  \n   \n  \n    \n     twitter\n  \n  \n    \n     Github"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Finley Malloc",
+    "section": "",
+    "text": "University of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "Finley Malloc",
+    "section": "",
+    "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   }
 ]

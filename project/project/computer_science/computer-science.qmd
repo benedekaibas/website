@@ -1,5 +1,0 @@
-
-        # Computer Science
-
-        This is the Computer Science section.
-        
