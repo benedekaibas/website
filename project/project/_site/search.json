@@ -1,16 +1,30 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "hungarian-thoughts.html",
+    "href": "hungarian-thoughts.html",
+    "title": "My Website",
     "section": "",
-    "text": "About this site"
+    "text": "# My Hungarian Thoughts\n\n    This is the My Hungarian Thoughts section."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My Website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "# Welcome to My Quarto Website\n\n    This is a basic website template using Quarto and Python.\n\n    ## Section 1\n    Content for section 1.\n\n    ## Section 2\n    Content for section 2."
+  },
+  {
+    "objectID": "computer-science.html",
+    "href": "computer-science.html",
+    "title": "My Website",
+    "section": "",
+    "text": "# Computer Science\n\n    This is the Computer Science section."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "My Website",
+    "section": "",
+    "text": "# About Me\n\n    This is the About Me section."
   }
 ]

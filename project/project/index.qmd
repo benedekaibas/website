@@ -1,7 +1,11 @@
----
-title: "My Website"
----
 
-This is a Quarto website.
+        # Welcome to My Quarto Website
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+        This is a basic website template using Quarto and Python.
+
+        ## Section 1
+        Content for section 1.
+
+        ## Section 2
+        Content for section 2.
+        
