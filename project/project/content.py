@@ -8,15 +8,23 @@ class Content():
 
     def generate_index_content(self):
         return """
-        # Welcome to My Quarto Website
+        ---
+        title: "Home"
+        ---
 
-        This is a basic website template using Quarto and Python.
+        # Welcome to My Website
 
-        ## Section 1
-        Content for section 1.
+        ## About Me
+        I am a passionate developer with interests in various fields of computer science. 
+        [Read more](about.qmd)
 
-        ## Section 2
-        Content for section 2.
+        ## Computer Science
+        I have worked on numerous projects involving algorithms, data structures, and software engineering principles.
+        [Read more](computer-science.qmd)
+
+        ## My Hungarian Thoughts
+        I often share my thoughts and experiences related to Hungarian culture and language.
+        [Read more](hungarian-thoughts.qmd)
         """
 
     def generate_about_content(self):
