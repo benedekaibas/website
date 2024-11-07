@@ -36,37 +36,35 @@ about:
   template: solana
   image: profile.jpg
   links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/kaibas-benedek-222644a5/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/benedekaibas
 ---
-
-### This content appears above the formatted about page content.
 
 :::{#hero-heading}
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+I am a student-athlete at Allegheny College studying computer science and competing in tennis. I am also a research assistant.
 
 ## Education
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+Allegheny College, Meadville | Meadville, PA
+BA in Computer Science | Sept 2022 - June 2026
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+Allegheny College, Meadville | Meadville, PA
+BA in Economics | Sept 2022 - June 2026
 
 ## Experience
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+Allegheny College | Computer Science Research Assistant | September 2024 - present
 
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
+Allegheny College | Technical Leader | January 2024 - present
 
 :::
 
-### This content appears below the formatted about page content.
+### Thanks for visiting my page 🙏.
         """
 
     def generate_computer_science_content(self):

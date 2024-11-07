@@ -1,9 +1,9 @@
 
 ---
-title: "Finley Malloc"
+title: "Benedek Kaibas"
 about:
   id: hero-heading
-  template: jolla
+  template: solana
   image: profile.jpg
   links:
     - icon: twitter
@@ -14,11 +14,11 @@ about:
       href: https://github.com
 ---
 
-### This content appears above the formatted about page content.
+### Welcome to my page 🙏
 
 :::{#hero-heading}
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+I am a student-athlete at Allegheny College studying computer science and competing in tennis. I am also a research assistant.
 
 ## Education
 
