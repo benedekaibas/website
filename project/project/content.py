@@ -30,10 +30,10 @@ I often share my thoughts and experiences related to Hungarian culture and langu
     def generate_about_content(self):
         return """
 ---
-title: "Finley Malloc"
+title: "Benedek Kaibas"
 about:
   id: hero-heading
-  template: jolla
+  template: solana
   image: profile.jpg
   links:
     - icon: twitter
