@@ -9,7 +9,7 @@ class Content():
     def generate_index_content(self):
         return """
 ---
-title: "Home"
+
 ---
 
 # Welcome to My Website
