@@ -154,7 +154,9 @@ links:
 You can reach me via phone or email.
         """
 
-    def generate_article_content(self, title, content):
+    def generate_article_content(self, title, content_file):
+        with open(content_file, 'r') as file:
+            content = file.read()
         return f"""
 ---
 title: "{title}"
@@ -182,14 +184,14 @@ if __name__ == "__main__":
     
     # Generate individual article files
     articles = [
-        ("article1.qmd", "Article 1", "Content of article 1..."),
-        ("article2.qmd", "Article 2", "Content of article 2..."),
-        ("article3.qmd", "Article 3", "Content of article 3..."),
-        ("hungarian-article1.qmd", "Hungarian Article 1", "Content of Hungarian article 1..."),
-        ("hungarian-article2.qmd", "Hungarian Article 2", "Content of Hungarian article 2..."),
-        ("hungarian-article3.qmd", "Hungarian Article 3", "Content of Hungarian article 3...")
+        ("article1.qmd", "Article 1", "articles/content.txt"),
+        ("article2.qmd", "Article 2", "articles/content.txt"),
+        ("article3.qmd", "Article 3", "articles/content.txt"),
+        ("hungarian-article1.qmd", "Hungarian Article 1", "articles/content.txt"),
+        ("hungarian-article2.qmd", "Hungarian Article 2", "articles/content.txt"),
+        ("hungarian-article3.qmd", "Hungarian Article 3", "articles/content.txt")
     ]
     
-    for filename, title, article_content in articles:
+    for filename, title, content_file in articles:
         with open(filename, "w") as file:
-            file.write(content.generate_article_content(title, article_content))
+            file.write(content.generate_article_content(title, content_file))

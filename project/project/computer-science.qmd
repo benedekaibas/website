@@ -3,8 +3,6 @@
 title: "Computer Science"
 ---
 
-# Computer Science Articles
-
 <div class="article-container">
   <a href="article1.qmd" class="article-card">
     <h3>Article 1</h3>

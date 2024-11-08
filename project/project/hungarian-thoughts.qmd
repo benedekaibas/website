@@ -3,8 +3,6 @@
 title: "My Hungarian Thoughts"
 ---
 
-# My Hungarian Thoughts Articles
-
 <div class="article-container">
   <a href="hungarian-article1.qmd" class="article-card">
     <h3>Article 1</h3>
