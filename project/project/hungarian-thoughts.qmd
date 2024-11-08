@@ -3,7 +3,5 @@
 title: "My Hungarian Thoughts"
 ---
 
-# My Hungarian Thoughts
-
 This is the My Hungarian Thoughts section.
         

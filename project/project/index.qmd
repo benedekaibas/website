@@ -1,19 +1,14 @@
 
 ---
-title: "Home"
+title: "Contact information"
+links:
+    - icon: phone
+      text: Phone Number
+      href: +36202298148
+    - icon: email
+      text: My Email
+      href: kaibas01@allegheny.eduß
 ---
 
-# Welcome to My Website
 
-## About Me
-I am a passionate developer with interests in various fields of computer science. 
-[Read more](about.qmd)
-
-## Computer Science
-I have worked on numerous projects involving algorithms, data structures, and software engineering principles.
-[Read more](computer-science.qmd)
-
-## My Hungarian Thoughts
-I often share my thoughts and experiences related to Hungarian culture and language.
-[Read more](hungarian-thoughts.qmd)
         
