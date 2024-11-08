@@ -6,8 +6,7 @@ class Content():
     def __init__(self) -> None:
         pass
 
-
-    def generate_about_content(self):
+    def generate_index_content(self):
         return """
 ---
 title: "Benedek Kaibas"
@@ -30,10 +29,10 @@ I am a student-athlete at Allegheny College studying computer science and compet
 
 ## Education
 
-Allegheny College, Meadville | Meadville, PA
+Allegheny College, Meadville | Meadville, PA |
 BA in Computer Science | Sept 2022 - June 2026
 
-Allegheny College, Meadville | Meadville, PA
+Allegheny College, Meadville | Meadville, PA |
 BA in Economics | Sept 2022 - June 2026
 
 ## Experience
@@ -53,7 +52,43 @@ Allegheny College | Technical Leader | January 2024 - present
 title: "Computer Science"
 ---
 
-This is the Computer Science section.
+<div class="article-container">
+  <a href="article1.qmd" class="article-card">
+    <h3>Article 1</h3>
+    <p>Summary of article 1...</p>
+  </a>
+  <a href="article2.qmd" class="article-card">
+    <h3>Article 2</h3>
+    <p>Summary of article 2...</p>
+  </a>
+  <a href="article3.qmd" class="article-card">
+    <h3>Article 3</h3>
+    <p>Summary of article 3...</p>
+  </a>
+</div>
+
+<style>
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+</style>
         """
 
     def generate_hungarian_thoughts_content(self):
@@ -62,18 +97,99 @@ This is the Computer Science section.
 title: "My Hungarian Thoughts"
 ---
 
-This is the My Hungarian Thoughts section.
+<div class="article-container">
+  <a href="hungarian-article1.qmd" class="article-card">
+    <h3>Article 1</h3>
+    <p>Summary of article 1...</p>
+  </a>
+  <a href="hungarian-article2.qmd" class="article-card">
+    <h3>Article 2</h3>
+    <p>Summary of article 2...</p>
+  </a>
+  <a href="hungarian-article3.qmd" class="article-card">
+    <h3>Article 3</h3>
+    <p>Summary of article 3...</p>
+  </a>
+</div>
+
+<style>
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+</style>
         """
 
+    def contact_information(self):
+        return """
+---
+title: "Contact Information"
+links:
+  - icon: phone
+    text: Phone Number
+    href: tel:+36202298148
+  - icon: email
+    text: My Email
+    href: mailto:kaibas01@allegheny.edu
+---
+
+# Contact Information
+
+You can reach me via phone or email.
+        """
+
+    def generate_article_content(self, title, content):
+        return f"""
+---
+title: "{title}"
+---
+
+# {title}
+
+{content}
+        """
 
 if __name__ == "__main__":
     content = Content()
     
-    with open("about.qmd", "w") as file:
-        file.write(content.generate_about_content())
+    with open("index.qmd", "w") as file:
+        file.write(content.generate_index_content())
     
     with open("computer-science.qmd", "w") as file:
         file.write(content.generate_computer_science_content())
     
     with open("hungarian-thoughts.qmd", "w") as file:
         file.write(content.generate_hungarian_thoughts_content())
+    
+    with open("contact.qmd", "w") as file:
+        file.write(content.contact_information())
+    
+    # Generate individual article files
+    articles = [
+        ("article1.qmd", "Article 1", "Content of article 1..."),
+        ("article2.qmd", "Article 2", "Content of article 2..."),
+        ("article3.qmd", "Article 3", "Content of article 3..."),
+        ("hungarian-article1.qmd", "Hungarian Article 1", "Content of Hungarian article 1..."),
+        ("hungarian-article2.qmd", "Hungarian Article 2", "Content of Hungarian article 2..."),
+        ("hungarian-article3.qmd", "Hungarian Article 3", "Content of Hungarian article 3...")
+    ]
+    
+    for filename, title, article_content in articles:
+        with open(filename, "w") as file:
+            file.write(content.generate_article_content(title, article_content))

@@ -3,5 +3,43 @@
 title: "My Hungarian Thoughts"
 ---
 
-This is the My Hungarian Thoughts section.
+# My Hungarian Thoughts Articles
+
+<div class="article-container">
+  <a href="hungarian-article1.qmd" class="article-card">
+    <h3>Article 1</h3>
+    <p>Summary of article 1...</p>
+  </a>
+  <a href="hungarian-article2.qmd" class="article-card">
+    <h3>Article 2</h3>
+    <p>Summary of article 2...</p>
+  </a>
+  <a href="hungarian-article3.qmd" class="article-card">
+    <h3>Article 3</h3>
+    <p>Summary of article 3...</p>
+  </a>
+</div>
+
+<style>
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+</style>
         

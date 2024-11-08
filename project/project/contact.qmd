@@ -1,0 +1,16 @@
+
+---
+title: "Contact Information"
+links:
+  - icon: phone
+    text: Phone Number
+    href: tel:+36202298148
+  - icon: email
+    text: My Email
+    href: mailto:kaibas01@allegheny.edu
+---
+
+# Contact Information
+
+You can reach me via phone or email.
+        

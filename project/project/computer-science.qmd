@@ -3,5 +3,43 @@
 title: "Computer Science"
 ---
 
-This is the Computer Science section.
+# Computer Science Articles
+
+<div class="article-container">
+  <a href="article1.qmd" class="article-card">
+    <h3>Article 1</h3>
+    <p>Summary of article 1...</p>
+  </a>
+  <a href="article2.qmd" class="article-card">
+    <h3>Article 2</h3>
+    <p>Summary of article 2...</p>
+  </a>
+  <a href="article3.qmd" class="article-card">
+    <h3>Article 3</h3>
+    <p>Summary of article 3...</p>
+  </a>
+</div>
+
+<style>
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+</style>
         

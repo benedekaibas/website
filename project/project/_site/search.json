@@ -1,31 +1,80 @@
 [
   {
+    "objectID": "article1.html",
+    "href": "article1.html",
+    "title": "Article 1",
+    "section": "",
+    "text": "Article 1\nContent of article 1…"
+  },
+  {
+    "objectID": "article2.html",
+    "href": "article2.html",
+    "title": "Article 2",
+    "section": "",
+    "text": "Article 2\nContent of article 2…"
+  },
+  {
+    "objectID": "hungarian-article2.html",
+    "href": "hungarian-article2.html",
+    "title": "Hungarian Article 2",
+    "section": "",
+    "text": "Hungarian Article 2\nContent of Hungarian article 2…"
+  },
+  {
     "objectID": "hungarian-thoughts.html",
     "href": "hungarian-thoughts.html",
     "title": "My Hungarian Thoughts",
     "section": "",
-    "text": "This is the My Hungarian Thoughts section."
+    "text": "My Hungarian Thoughts Articles\n\n\n\nArticle 1\n\n&lt;p&gt;Summary of article 1...&lt;/p&gt;\n \n\nArticle 2\n\n&lt;p&gt;Summary of article 2...&lt;/p&gt;\n \n\nArticle 3\n\n&lt;p&gt;Summary of article 3...&lt;/p&gt;"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Benedek Kaibas",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n\n      \nI am a student-athlete at Allegheny College studying computer science and competing in tennis. I am also a research assistant.\n\n\nAllegheny College, Meadville | Meadville, PA | BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA | BA in Economics | Sept 2022 - June 2026\n\n\n\nAllegheny College | Computer Science Research Assistant | September 2024 - present\nAllegheny College | Technical Leader | January 2024 - present"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Benedek Kaibas",
+    "section": "",
+    "text": "Allegheny College, Meadville | Meadville, PA | BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA | BA in Economics | Sept 2022 - June 2026"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Benedek Kaibas",
+    "section": "",
+    "text": "Allegheny College | Computer Science Research Assistant | September 2024 - present\nAllegheny College | Technical Leader | January 2024 - present"
   },
   {
     "objectID": "computer-science.html",
     "href": "computer-science.html",
     "title": "Computer Science",
     "section": "",
-    "text": "This is the Computer Science section."
+    "text": "Computer Science Articles\n\n\n\nArticle 1\n\n&lt;p&gt;Summary of article 1...&lt;/p&gt;\n \n\nArticle 2\n\n&lt;p&gt;Summary of article 2...&lt;/p&gt;\n \n\nArticle 3\n\n&lt;p&gt;Summary of article 3...&lt;/p&gt;"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Information",
+    "section": "",
+    "text": "Contact Information\nYou can reach me via phone or email."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Benedek Kaibas",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n\n      \nI am a student-athlete at Allegheny College studying computer science and competing in tennis. I am also a research assistant.\n\n\nAllegheny College, Meadville | Meadville, PA BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA BA in Economics | Sept 2022 - June 2026\n\n\n\nAllegheny College | Computer Science Research Assistant | September 2024 - present\nAllegheny College | Technical Leader | January 2024 - present"
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n\n      \nI am a student-athlete at Allegheny College studying computer science and competing in tennis. I am also a research assistant.\n\n\nAllegheny College, Meadville | Meadville, PA | BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA | BA in Economics | Sept 2022 - June 2026\n\n\n\nAllegheny College | Computer Science Research Assistant | September 2024 - present\nAllegheny College | Technical Leader | January 2024 - present"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Benedek Kaibas",
     "section": "",
-    "text": "Allegheny College, Meadville | Meadville, PA BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA BA in Economics | Sept 2022 - June 2026"
+    "text": "Allegheny College, Meadville | Meadville, PA | BA in Computer Science | Sept 2022 - June 2026\nAllegheny College, Meadville | Meadville, PA | BA in Economics | Sept 2022 - June 2026"
   },
   {
     "objectID": "about.html#experience",
@@ -33,5 +82,26 @@
     "title": "Benedek Kaibas",
     "section": "",
     "text": "Allegheny College | Computer Science Research Assistant | September 2024 - present\nAllegheny College | Technical Leader | January 2024 - present"
+  },
+  {
+    "objectID": "hungarian-article3.html",
+    "href": "hungarian-article3.html",
+    "title": "Hungarian Article 3",
+    "section": "",
+    "text": "Hungarian Article 3\nContent of Hungarian article 3…"
+  },
+  {
+    "objectID": "hungarian-article1.html",
+    "href": "hungarian-article1.html",
+    "title": "Hungarian Article 1",
+    "section": "",
+    "text": "Hungarian Article 1\nContent of Hungarian article 1…"
+  },
+  {
+    "objectID": "article3.html",
+    "href": "article3.html",
+    "title": "Article 3",
+    "section": "",
+    "text": "Article 3\nContent of article 3…"
   }
 ]

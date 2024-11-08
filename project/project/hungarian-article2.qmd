@@ -1,0 +1,9 @@
+
+---
+title: "Hungarian Article 2"
+---
+
+# Hungarian Article 2
+
+Content of Hungarian article 2...
+        

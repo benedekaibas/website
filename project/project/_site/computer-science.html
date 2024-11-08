@@ -84,10 +84,6 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About me</span></a>
   </li>  
   <li class="nav-item">
@@ -132,9 +128,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is the Computer Science section.</p>
+<section id="computer-science-articles" class="level1">
+<h1>Computer Science Articles</h1>
+<div class="article-container">
+<a href="./article1.html" class="article-card">
+<h3 class="anchored" data-anchor-id="computer-science-articles">
+Article 1
+</h3>
+<pre><code>&lt;p&gt;Summary of article 1...&lt;/p&gt;</code></pre>
+</a> <a href="./article2.html" class="article-card">
+<h3 class="anchored">
+Article 2
+</h3>
+<pre><code>&lt;p&gt;Summary of article 2...&lt;/p&gt;</code></pre>
+</a> <a href="./article3.html" class="article-card">
+<h3 class="anchored">
+Article 3
+</h3>
+<pre><code>&lt;p&gt;Summary of article 3...&lt;/p&gt;</code></pre>
+</a><p><a href="./article3.html" class="article-card"></a></p>
+</div>
+<style>
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
+}
+</style>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
